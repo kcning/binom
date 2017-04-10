@@ -9,5 +9,5 @@ Nevertheless, it shows the capability of C preprocessor and isn't
 it cool? ;)
 
 BINOM is inspired by the following material:
-    1. [Cloak](https://github.com/pfultz2/Cloak)
-    2. [C/C++ preprocessor metaprogramming](http://saadahmad.ca/cc-preprocessor-metaprogramming-2/)
+1. [Cloak](https://github.com/pfultz2/Cloak)
+2. [C/C++ preprocessor metaprogramming](http://saadahmad.ca/cc-preprocessor-metaprogramming-2/)
