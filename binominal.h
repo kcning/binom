@@ -3,10 +3,8 @@
 
 #include "macro_arith/arith.h"
 
-/* for macro function that uses loop/recursion,
- * we should define a separate expand for it.
- *
- * For BINOM(n, k), BINOM_EXPAND defines max k
+/* for macro that uses loop/recursion, we should define a separate expand for
+ * it. For BINOM(n, k), BINOM_EXPAND defines max k
  */
 #define BINOM_EXPAND1(...) __VA_ARGS__
 #define BINOM_EXPAND2(...) BINOM_EXPAND1(__VA_ARGS__)

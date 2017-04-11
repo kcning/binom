@@ -49,7 +49,6 @@
 
 /* replace arguments */
 #define EAT(...)
-#define REPLACE_B NEW_B) EAT(
 
 /* test if the value is an existing macro */
 #define EXPAND_TEST_EXISTS(...) EXPAND, EXISTS(__VA_ARGS__) ) EAT (
